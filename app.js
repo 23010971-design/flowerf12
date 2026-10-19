@@ -4,7 +4,8 @@
 // Bounding Box + tô màu + tên + confidence
 // ============================================================
 
-const MODEL_PATH = "./best.onnx";
+const MODEL_PATH =
+    "https://23010971-design.github.io/flowerf12/best.onnx";
 const INPUT_SIZE = 320;
 const CONF_THRESHOLD = 0.60;
 const IOU_THRESHOLD = 0.50;
